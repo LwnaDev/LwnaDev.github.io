@@ -1,4 +1,4 @@
-# Zenrac.github.io
+# LwnaDev.github.io
 Trash website with shitty scripts I want to share.
 
 ## Frameworks
