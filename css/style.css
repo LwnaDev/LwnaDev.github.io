@@ -60,9 +60,13 @@ a:hover, a:focus {
 }
 
 .bigavatar {
+	width: 200px;
+    border-radius: 50%;
+    border: 2px #6f01ff solid;
     transform: translatey(0px);
     display: block;
     margin: auto;
+	margin-right: 1.5em;
     overflow: hidden;
 	cursor: pointer;
 }

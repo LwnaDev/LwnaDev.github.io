@@ -135,4 +135,4 @@ const maquinaEscribir3 = (text = '',tiempo = 200, etiqueta = '') => {
 }
 
 maquinaEscribir1("LwnaDev",300, maquina1)
-maquinaEscribir3("Hello World  ",150, maquina3)
+maquinaEscribir3("mv ~ /dev/null  ",150, maquina3)
