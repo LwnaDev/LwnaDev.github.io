@@ -247,6 +247,14 @@ a {
 	background-color: #7289da;
 }
 
+.youtube a i:hover {
+	background-color: #ff0000;
+}
+
+.patreon a i:hover {
+	background-color: #ff9100;
+}
+
 .links {
 	display: flex;
 }
@@ -307,7 +315,7 @@ a {
 
 /* con JS */
 #maquina-escribir3 {
-	border-right: 3px solid rgb(0, 230, 247);
+	border-right: 3px solid rgb(7, 189, 245);
 	margin: 0;
 } 
 #maquina-escribir1 {
