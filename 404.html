@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 | LwnaDev</title>
 </head>
 <body>
     <style>
-
         body {
             background: url("./images/background.gif") fixed;
             color:#fff;
@@ -19,7 +19,6 @@
             width: 100%;
             height: 100%;
         }
-    
         .c {
             text-align: center;
             display: block;
@@ -28,7 +27,6 @@
             top: 50%;
             transform: translateY(-50%);
         }
-    
         ._1 {
             text-align:center;
             display:block;
@@ -37,14 +35,12 @@
             font-size: 4em;
             line-height: 80%;
         }
-    
         ._2 {
             text-align:center;
             display:block;
             position: relative;
             font-size: 20px;
         }
-    
         .text {
             font-size: 70px;
             text-align: center;
@@ -57,7 +53,6 @@
             line-height: 1.2em;
             display: inline-block;
         }
-    
         .btn {
             background-color: rgb( 255, 255, 255 );
             position: relative;
@@ -73,12 +68,10 @@
             border: 2px solid white;
             transition: 0.3s;
         }
-    
         .btn:hover {
             background-color: #232830;
             color: white;
         }
-    
         hr {
             padding: 0;
             border: none;
@@ -90,7 +83,6 @@
             height:10px;
             z-index: -10;
         }
-    
         hr:after {
             content: "";
             display: inline-block;
@@ -100,26 +92,22 @@
             padding: 0 0.2em;
             background: #232830;
         }
-    
         img {
         image-rendering: auto;
         padding: 2px;
         transition: 0.1s ease-in-out all;
         cursor: pointer;
         }
-    
         img:hover {
         transition: 0.1s ease-in-out all;
         filter: drop-shadow(1px 1px 0 red) drop-shadow(-1px -1px 0 blue);
         }
-        
         .position-absolute__content {
         position: relative;
         display: inline-block;
         left: 50%;
         transform: translate(-150%, -20%);
         }
-    
         ::-webkit-scrollbar {
         display: none;
         }
@@ -142,27 +130,27 @@
             var url = window.location.pathname;
             // strip trailing /
             if (url.slice(-1) === "/") {
-                 url = url.slice(0, -1);
+                url = url.slice(0, -1);
             }
             var allpostsUpperCase = allposts.map(function(value) {
-                  // strip trailing /
-                  if (value.slice(-1) === "/") {
-                         value = value.slice(0, -1);
-                  }
+                // strip trailing /
+                if (value.slice(-1) === "/") {
+                    value = value.slice(0, -1);
+                }
                 return value.toUpperCase();
             });
-          var i = allpostsUpperCase.indexOf(url.toUpperCase());
-          if (i != -1) {
+            var i = allpostsUpperCase.indexOf(url.toUpperCase());
+            if (i != -1) {
             window.location = allposts[i];
-          }
-          else {
+            }
+            else {
             var i = allpostsUpperCase.indexOf('/EN' + url.toUpperCase());
             if (i != -1) {
-              window.location = allposts[i];
+                window.location = allposts[i];
             }
-          }
+            }
         }
         window.onload = redirectToCorrectPage;
-      </script>
+    </script>
 </body>
 </html>

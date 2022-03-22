@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
     Swal.fire({
       title: 'Genial!',
       width: 700,
-      text: 'Quiza rechace tu solicitud de amistad, de todas formas!',
+      text: 'Quiza rechace tu solicitud de amistad de todas formas!',
       imageUrl: './images/discord.png',
       imageAlt: 'My discord image',
       background: '#202225',
