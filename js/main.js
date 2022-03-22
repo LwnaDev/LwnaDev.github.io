@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  // Remove url text on mouseover for icons links
+  // Eliminar el texto de la url al pasar el ratón por los enlaces de los iconos
   $('a').each(function() {
     $(this).attr('onclick', 'window.location.href="' + $(this).attr('href') + '"');
     $(this).removeAttr('href');
@@ -8,8 +8,8 @@ jQuery(document).ready(function($) {
 
 jQuery(document).ready(function($) {
   /**
-   * Set footer always on the bottom of the page
-   */
+   * Establecer el footer de página siempre en la parte inferior de la página
+  **/
   function footerAlwayInBottom(footerSelector) {
     var docHeight = $(window).height();
     var footerTop = footerSelector.position().top + footerSelector.height();
@@ -19,21 +19,21 @@ jQuery(document).ready(function($) {
       footerSelector.css('margin-top', '0px');
     }
   }
-  // Apply when page is loading
+  // Aplicar cuando la página se está cargando
   footerAlwayInBottom($("#footer"));
 
-  // Apply when page is fully loaded
+  // Aplicar cuando la página está completamente cargada
   $(window).on("load", function() {
     footerAlwayInBottom($("#footer"));
     $(window).trigger('resize');
   });
 
-  // Apply when page is resizing
+  // Aplicar cuando la página se redimensiona
   $(window).resize(function() {
     footerAlwayInBottom($("#footer"));
   });
 
-  // Apply every 25 ms
+  // Aplicar cada 25 ms
   window.setInterval(function() {
     footerAlwayInBottom($("#footer"));
   }, 25);
@@ -44,7 +44,7 @@ jQuery(document).ready(function($) {
       width: 700,
       text: 'Quiza rechace tu solicitud de amistad de todas formas!',
       imageUrl: './images/discord.png',
-      imageAlt: 'My discord image',
+      imageAlt: 'My Discord',
       background: '#202225',
       confirmButtonText:
       '<i class="fa fa-thumbs-up"></i> Bien!',
@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
       if (result.dismiss == "cancel") {
 
         swal.fire({
-          title: "YOU GOT RICK ROLLED",
+          title: "CAISTE RICK ROLLED",
           background: '#202225',
           width: '500px',
           confirmButtonText:
@@ -73,8 +73,8 @@ jQuery(document).ready(function($) {
         }).then((result) => {
           if (result.dismiss == "cancel") {
             Swal.fire({
-              title: "NO PUEDES ADMITIR?",
-              html: "<a href='https://zenrac.wixsite.com/souriredeberserk-fs'><img src=https://i.imgur.com/ZngZTjQ.png /></a>",
+              title: "TE HACES EL VIVO WACHO?",
+              html: "<a href='./images/background.gif'><img src='./images/siren-head.gif' width=290 alt=Siren-Head/></a>",
               imageAlt: "BERSERK",
               confirmButtonText:
               '<i class="fa fa-thumbs-up"></i> Lo siento!',
@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
                   title: "¡No te arrepientes! Te tengo",
                   width: '500px',
                   html:
-                  '<iframe width="80%" height:"auto" src="https://www.youtube.com/embed/K5JLIdAPfdc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>',
+                  '<iframe width="80%" height:"auto" src="https://www.youtube.com/embed/KvMoU38_zy0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>',
                 })
               }
             })
