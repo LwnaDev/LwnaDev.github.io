@@ -1,9 +1,27 @@
 # Scripts
+![ScriptsBanner](./../images/scripts_banner.png)
 - [Cler](./Cler.md)
-- [Cler](https://github.com/LwnaDev/Cler/blob/main/README.md)
-- [Declarate](https://github.com/LwnaDev/Declarate/blob/main/README.md)
-- [Chilltify](https://github.com/LwnaDev/Chilltify/blob/main/README.md)
-- [Java CRUD](https://github.com/LwnaDev/java-crud-alumnos/blob/main/README.md)
-- [Espejito](https://github.com/LwnaDev/espejito/blob/main/README.md)
-- [Electron CRUD](https://github.com/LwnaDev/Electron-CRUD/blob/main/README.md)
-- [Benchmarks](https://github.com/LwnaDev/Benchmarks/blob/master/README.md)
+- [Declarate](./Declarate.md)
+- [Chilltify](./Chilltify.md)
+- [Java CRUD](./JavaCRUD)
+- [Espejito](./Espejito.md)
+- [Electron CRUD](./ElectronCRUD.md)
+- [Benchmarks](./Benchmarks.md)
+- soon..
+<hr>
+
+# Others
+![OthersBanner](./../images/others_banner.png)
+* Nothing
+<hr>
+
+# Contact
+![ContactBanner](./../images/contact_banner.png)
+- [Twitter](https://twitter.com/LwnaDev)
+- [GitHub](https://github.com/LwnaDev)
+- [Discord Server](https://discord.com/invite/Uck5Pq7MKY)
+- [Mail](mailto:7a.aguilar@gmail.com)
+<hr>
+
+
+[↼ Back to LwnaDev](https://lwnadev.github.io)
