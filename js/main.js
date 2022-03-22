@@ -40,17 +40,17 @@ jQuery(document).ready(function($) {
 
   $('.docs').on('click', function(e) {
     Swal.fire({
-      title: 'Nice!',
+      title: 'Genial!',
       width: 700,
-      text: 'I may refuse your friend request btw!',
+      text: 'Quiza rechace tu solicitud de amistad, de todas formas!',
       imageUrl: './images/discord.png',
       imageAlt: 'My discord image',
       background: '#202225',
       confirmButtonText:
-      '<i class="fa fa-thumbs-up"></i> Great!',
+      '<i class="fa fa-thumbs-up"></i> Bien!',
       confirmButtonAriaLabel: 'Thumbs up, great!',
       cancelButtonText:
-      '<i class="fa fa-thumbs-down"></i> Fuck you!',
+      '<i class="fa fa-thumbs-down"></i> Nel kpo!',
       cancelButtonAriaLabel: 'Thumbs down',
       showCloseButton: true,
       showCancelButton: true,
@@ -63,9 +63,9 @@ jQuery(document).ready(function($) {
           background: '#202225',
           width: '500px',
           confirmButtonText:
-          '<i class="fa fa-thumbs-up"></i> I got destroyed!',
+          '<i class="fa fa-thumbs-up"></i> Me has pillado!',
           cancelButtonText:
-          '<i class="fa fa-thumbs-down"></i> Ahaha, predictable kid.',
+          '<i class="fa fa-thumbs-down"></i> Haha, predecible.',
           showCloseButton: true,
           showCancelButton: true,
           html:
@@ -73,16 +73,16 @@ jQuery(document).ready(function($) {
         }).then((result) => {
           if (result.dismiss == "cancel") {
             Swal.fire({
-              title: "CAN'T YOU ADMIT?",
+              title: "NO PUEDES ADMITIR?",
               html: "<a href='https://zenrac.wixsite.com/souriredeberserk-fs'><img src=https://i.imgur.com/ZngZTjQ.png /></a>",
               imageAlt: "BERSERK",
               confirmButtonText:
-              '<i class="fa fa-thumbs-up"></i> I am sorry!',
+              '<i class="fa fa-thumbs-up"></i> Lo siento!',
               confirmButtonAriaLabel: 'Thumbs up, great!',
             }).then((result) => {
               if (!result.dismiss) {
                 Swal.fire({
-                  title: "You're not sorry! You're a user! Gotcha",
+                  title: "¡No te arrepientes! Te tengo",
                   width: '500px',
                   html:
                   '<iframe width="80%" height:"auto" src="https://www.youtube.com/embed/K5JLIdAPfdc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>',

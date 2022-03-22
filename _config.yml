@@ -1,5 +1,4 @@
 exclude:
-  - README.md
   - LICENSE
 
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
