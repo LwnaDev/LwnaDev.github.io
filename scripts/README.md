@@ -1,5 +1,5 @@
 # Scripts
-![ScriptsBanner](./../images/scripts_banner.png)
+![ScriptsBanner](../images/scripts_banner.png)
 - [Cler](./Cler.md)
 - [Declarate](./Declarate.md)
 - [Chilltify](./Chilltify.md)
@@ -11,12 +11,12 @@
 <hr>
 
 # Others
-![OthersBanner](./../images/others_banner.png)
+![OthersBanner](../images/others_banner.png)
 * Nothing
 <hr>
 
 # Contact
-![ContactBanner](./../images/contact_banner.png)
+![ContactBanner](../images/contact_banner.png)
 - [Twitter](https://twitter.com/LwnaDev)
 - [GitHub](https://github.com/LwnaDev)
 - [Discord Server](https://discord.com/invite/Uck5Pq7MKY)
