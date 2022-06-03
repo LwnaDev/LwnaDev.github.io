@@ -21,8 +21,10 @@ Available for Mac, Linux and Windows.
 
 Installer `.exe` only available for Windows.
 
-[Windows Installer](https://drive.google.com/uc?export=download&confirm=01yo&id=1jaOdnnbRDlwPOBI3_pnWF0P0E6ASZKUS) |
-[Mac Os](https://drive.google.com/drive/folders/1LOYV_qe18X_R_i_79w7tK7rw661Jzd10?usp=sharing) |
+[Windows Installer](https://drive.google.com/uc?export=download&confirm=01yo&id=1jaOdnnbRDlwPOBI3_pnWF0P0E6ASZKUS)
+
+[MacOS](https://drive.google.com/drive/folders/1LOYV_qe18X_R_i_79w7tK7rw661Jzd10?usp=sharing)
+
 [Linux](https://drive.google.com/drive/folders/1_6AQhmQ0W0Uni2w_MwGZR6uMiy_oZVb7?usp=sharing)
 
 # License
