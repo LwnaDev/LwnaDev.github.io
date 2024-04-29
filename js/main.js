@@ -134,5 +134,5 @@ const maquinaEscribir3 = (text = '',tiempo = 200, etiqueta = '') => {
   }, tiempo)
 }
 
-maquinaEscribir1("LwnaDev",300, maquina1)
+maquinaEscribir1("Rawier",300, maquina1)
 maquinaEscribir3("mv ~ /dev/null  ",150, maquina3)
